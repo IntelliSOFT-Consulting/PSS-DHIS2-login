@@ -1,0 +1,94 @@
+.loginPage {
+  background-color: white !important;
+}
+body {
+  background-color: white !important;
+  width: 500px !important;
+  margin: auto !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+  padding: 0px !important;
+  place-items: center !important;
+  margin-top: 5vh !important;
+}
+
+#footerArea {
+  position: fixed;
+  background: #1d5288;
+}
+
+body::before {
+  content: 'PSS INSIGHT';
+  background-color: #0266b9 !important;
+  width: calc(100% - 3rem);
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+#titleArea {
+  display: none;
+}
+
+#notificationArea {
+  display: none;
+}
+
+#loginField {
+  color: #0266b9 !important;
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  background: white;
+  align-items: center !important;
+  flex-direction: column !important;
+  position: relative;
+  margin-top: 50px !important;
+  margin-bottom: 150px;
+  border-bottom: 4px solid #bb0c2f;
+  padding-bottom: 2rem;
+}
+
+#loginMessage {
+  color: #bb0c2f;
+}
+
+#loginField input {
+  margin-top: 1rem;
+}
+
+#loginField input#submit {
+  background: #0266b9 !important;
+  color: white;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+#loginField::after {
+  content: '';
+  position: absolute;
+  bottom: -13rem;
+  display: block;
+  width: 12rem;
+  height: 12rem;
+  background-image: url('https://res.cloudinary.com/dnzr6wrju/image/upload/v1688373628/USAID-Identity.svg_un9wl2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#loginField::before {
+  content: 'This website is made possible by the generous support of the American people through the US Agency for International Development (USAID) contract no. 7200AA18C00074. The contents are the responsibility of Management Sciences for Health and do not necessarily reflect the views of USAID or the United States Government';
+  position: absolute;
+  bottom: -11rem;
+  display: block;
+  padding: 1rem 1.5rem;
+  font-size: 8px;
+  text-align: center;
+}
+
+#bannerArea {
+  display: none;
+}
